@@ -1,6 +1,6 @@
 
 .skillsdiv{
-    background-color: var(--color-fifth);
+    background-color: var(--color-second);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -14,4 +14,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-second);
 }

@@ -48,10 +48,51 @@ function Skills() {
 
             <div>
                 <h2>Soft Skills</h2>
+                <div className="skillscampo">
+                    <SkillsCard
+                        imgs="https://publicdomainvectors.org/tn_img/provider-idea.webp"
+                        titulo="Adaptabilidad y flexibilidad"
+                        nivel=""
+                    />
+                    <SkillsCard
+                        imgs="https://publicdomainvectors.org/tn_img/provider-idea.webp"
+                        titulo="Trabajo en equipo"
+                        nivel=""
+                    />
+
+                    <SkillsCard
+                        imgs="https://publicdomainvectors.org/tn_img/provider-idea.webp"
+                        titulo="Creatividad e innovación"
+                        nivel=""
+                    />
+
+
+                </div>
+
+
             </div>
 
             <div>
                 <h2>Idiomas</h2>
+
+                <div className="skillscampo">
+                    <SkillsCard
+                        imgs="https://cdn-icons-png.flaticon.com/512/2037/2037492.png"
+                        titulo="Español"
+                        nivel="Nativo"
+                    />
+                    <SkillsCard
+                        imgs="https://cdn-icons-png.flaticon.com/512/2037/2037492.png"
+                        titulo="Inglés"
+                        nivel="Intermedio"
+                    />
+
+
+                </div>
+
+
+
+
             </div>
 
         </div>

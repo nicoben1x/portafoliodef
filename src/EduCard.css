@@ -1,7 +1,7 @@
 
 
 .educard{
-    background-color: var(--color-thirth);
+    background-color: var(--color-fourth);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     padding: 7px;
     margin: 5px;
+    max-width: 499px;
 }
 
 .edulogo{
@@ -18,7 +19,7 @@
     margin-top: 10px;
 }
 .edutext{
-    background-color: var(--color-thirth);
+    background-color: var(--color-fourth);
     text-align:center;
    
    

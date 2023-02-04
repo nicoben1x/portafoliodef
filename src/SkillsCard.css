@@ -2,17 +2,18 @@
     display: flex;
     flex-direction: column;
     width: 320px;
-    background-color: var(--color-thirth);
+    height: 278px;
+    background-color: var(--color-fifth);
     justify-content: center;
     align-items: center;
     padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px;
+ 
     
 
    
 }
 .imgskill{
-    height: 200px;
+    height: 170px;
     object-fit: contain;
 }
