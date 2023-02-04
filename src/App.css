@@ -1,16 +1,16 @@
 
 
 .acercaperfil{
-  background-color: transparent;
+  background-color: var(--color-second);
 }
 .rolperfil{
-  background-color: transparent;
+  background-color: var(--color-second);
   font-size: 21px;
   margin: 0px;
 
 }
 .nombreperfil{
-  background-color: transparent;
+  background-color: var(--color-second);
   margin: 6px 0px;
 
 }

@@ -8,8 +8,10 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 7px;
-    margin: 5px;
+    margin: 14px;
     max-width: 499px;
+    border: solid #406973 3px;
+    border-radius: 7%;
 }
 
 .edulogo{
