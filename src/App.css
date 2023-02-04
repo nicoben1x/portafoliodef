@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.acercaperfil{
+  background-color: transparent;
 }
+.rolperfil{
+  background-color: transparent;
+  font-size: 21px;
+  margin: 0px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.nombreperfil{
+  background-color: transparent;
+  margin: 6px 0px;
+
+}
+.App{
+  background-color: yellow;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.bannerfoto{
+  width: 100%;
+  height: 250px;
+  object-fit:cover;
+  background-color: transparent;
+}
+.perfilfoto{
+  width: 200px;
+  object-fit: contain;
+  border-radius: 60%;
+  background-color: transparent;
+  position: relative;
+  top: -122px;
+  margin-bottom: -131px;
+
+}
+.acercademi{
+  background-color: var(--color-fifth);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background-color:var(--color-thirth);
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 5000;
+
+  
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.menuboton{
+  background-color: transparent;
+  width: 63px;
+  height: 63px;
+  margin-left: 5px;
+  cursor: pointer;
 }
+.loginboton{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  margin: 0px 4px;
+}
+.githubboton{
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  margin-bottom: -3px;
+  margin-left: -7px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.linkedinboton{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  margin: 0px 4px;
+}
+.mailboton{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+}
+.redes{
+  background-color: transparent;
+}
+.menuDes{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-fifth);
+  z-index: 4000;
+  position: fixed;
+  left:0%;
+  transition: left 0.9s;
+
+
+}
+.ocultar{
+  left: -100%;
+  
+  
 }

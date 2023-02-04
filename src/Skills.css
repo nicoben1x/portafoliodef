@@ -1,0 +1,10 @@
+
+.skillsdiv{
+    background-color: var(--color-fifth);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

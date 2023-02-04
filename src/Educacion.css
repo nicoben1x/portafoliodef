@@ -1,0 +1,7 @@
+
+.edudiv{
+    background-color: var(--color-fourth);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
