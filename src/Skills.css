@@ -1,0 +1,18 @@
+
+.skillsdiv{
+    background-color: var(--color-second);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.skillscampo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-second);
+}

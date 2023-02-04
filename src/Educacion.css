@@ -1,0 +1,15 @@
+
+.edudiv{
+    background-color: var(--color-fifth);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.educampo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}

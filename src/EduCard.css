@@ -1,0 +1,28 @@
+
+
+.educard{
+    background-color: var(--color-fourth);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 7px;
+    margin: 14px;
+    max-width: 499px;
+    border: solid #406973 3px;
+    border-radius: 7%;
+}
+
+.edulogo{
+    width: 150px;
+    object-fit: contain;
+    border-radius: 60%;
+    margin-top: 10px;
+}
+.edutext{
+    background-color: var(--color-fourth);
+    text-align:center;
+   
+   
+}

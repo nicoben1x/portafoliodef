@@ -1,0 +1,115 @@
+
+
+.acercaperfil{
+  background-color: var(--color-first);
+}
+.rolperfil{
+  background-color: var(--color-first);
+  font-size: 21px;
+  margin: 0px;
+
+}
+.nombreperfil{
+  background-color: var(--color-first);
+  margin: 6px 0px;
+
+}
+.App{
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+.bannerfoto{
+  width: 100%;
+  height: 250px;
+  object-fit:cover;
+  background-color: transparent;
+}
+.perfilfoto{
+  width: 200px;
+  object-fit: contain;
+  border-radius: 60%;
+  background-color: transparent;
+  position: relative;
+  top: -122px;
+  margin-bottom: -131px;
+
+}
+.acercademi{
+  background-color: var(--color-fifth);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background-color:var(--color-thirth);
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 5000;
+
+  
+ 
+}
+
+.menuboton{
+  background-color: transparent;
+  width: 63px;
+  height: 63px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.loginboton{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  margin: 0px 4px;
+}
+.githubboton{
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  margin-bottom: -3px;
+  margin-left: -7px;
+
+}
+.linkedinboton{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  margin: 0px 4px;
+}
+.mailboton{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+}
+.redes{
+  background-color: transparent;
+}
+.menuDes{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-fifth);
+  z-index: 4000;
+  position: fixed;
+  left:0%;
+  transition: left 0.9s;
+
+
+}
+.ocultar{
+  left: -100%;
+  
+  
+}

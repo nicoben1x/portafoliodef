@@ -1,0 +1,20 @@
+.skillscard{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 278px;
+    background-color: var(--color-fifth);
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 71%;
+ 
+    
+
+   
+}
+.imgskill{
+    height: 170px;
+    object-fit: contain;
+}
