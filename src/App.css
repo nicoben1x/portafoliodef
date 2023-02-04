@@ -1,7 +1,29 @@
-
+.fotoytext{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.textt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.perfilfoto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
 
 .acercaperfil{
   background-color: var(--color-first);
+  max-width: 600px;
+  font-size: 19px;
 }
 .rolperfil{
   background-color: var(--color-first);
