@@ -17,6 +17,7 @@ function Educacion() {
             Integer id magna at dui malesuada commodo. Pellentesque habitant morbi tristique senectus et 
             netus et malesuada fames ac turpis egestas."
                     imgedu="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4CxIwdP8u4cH-kKfNNolKpffKGZoZuSfP3Q&usqp=CAU"
+                    link="www.google.com"
 
                 />
 
@@ -30,7 +31,7 @@ function Educacion() {
                 Integer id magna at dui malesuada commodo. Pellentesque habitant morbi tristique senectus et 
                 netus et malesuada fames ac turpis egestas."
                     imgedu="https://yt3.googleusercontent.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s900-c-k-c0x00ffffff-no-rj"
-
+                    link="www.certification.com"
                 />
 
             </div>

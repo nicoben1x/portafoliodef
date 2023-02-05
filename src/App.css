@@ -126,7 +126,8 @@
   z-index: 4000;
   position: fixed;
   left:0%;
-  transition: left 0.9s;
+  transition: left 0.7s;
+  margin-top: 70px;
 
 
 }
@@ -134,4 +135,25 @@
   left: -100%;
   
   
+}
+
+.listanav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  text-decoration: none;
+}
+.listanav li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 41px;
+  margin:5px;
+  padding: 5px;
+  background-color: var(--color-first);
+  cursor: pointer;
+}
+.listanav li a{
+  text-decoration: none;
+  color: black;
 }

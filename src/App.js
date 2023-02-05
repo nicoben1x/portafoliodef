@@ -8,6 +8,8 @@ import { IoMenu } from "react-icons/io5";
 import Educacion from './Educacion';
 import Skills from './Skills';
 import Proyectos from './Proyectos';
+import Contacto from './Contacto';
+import Final from './Final';
 
 
 
@@ -28,10 +30,17 @@ function App() {
       </div>
 
       <div className='menuDes ocultar'>
+        <ul className='listanav'>
+          <li><a onClick={menuDes} href='#homeid'>Home</a></li>
+          <li><a onClick={menuDes} href='#educacionid'>Educacion</a></li>
+          <li><a onClick={menuDes} href='#skillsid'>Skills</a></li>
+          <li><a onClick={menuDes} href='#proyectosid'>Proyectos</a></li>
+          <li><a onClick={menuDes} href='#contactoid'>Contacto</a></li>
+        </ul>
 
       </div>
 
-      <div className='acercademi'>
+      <div id='homeid' className='acercademi'>
 
         <img className='bannerfoto' src='https://i.postimg.cc/Mprm1dMm/banerrr.png' />
         <div className='fotoytext'>
@@ -51,12 +60,20 @@ function App() {
 
       </div>
 
-      <Educacion />
+      <div id="educacionid"></div>
+      <Educacion  />
+
+      <div id="skillsid"></div>
+      <Skills  />
+    
+      <div id="proyectosid"></div>
+      <Proyectos />
 
 
-      <Skills />
+      <div id="contactoid"></div>
+      <Contacto />
 
-      <Proyectos/>
+      <Final/>
 
 
 
@@ -67,6 +84,7 @@ function App() {
 function menuDes() {
   document.querySelector(".menuDes").classList.toggle("ocultar");
 }
+
 
 
 export default App;

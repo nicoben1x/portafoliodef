@@ -1,6 +1,6 @@
 import './EduCard.css';
 
-function EduCard({titulo,instituto,fecha,desc,imgedu}) {
+function EduCard({titulo,instituto,fecha,desc,imgedu,link}) {
     return (
         <div className='educard'>
 
@@ -12,6 +12,7 @@ function EduCard({titulo,instituto,fecha,desc,imgedu}) {
                 <h2>{instituto}</h2>
                 <h3>{fecha}</h3>
                 <p>{desc}</p>
+                <p>{link}</p>
 
             </div>
         </div>

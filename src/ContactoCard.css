@@ -1,0 +1,15 @@
+.contactocard{
+    background-color: var(--color-fourth);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    padding: 7px;
+    margin: 10px;
+}
+.imgcontacto{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+}
