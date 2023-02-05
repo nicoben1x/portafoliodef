@@ -7,6 +7,7 @@ import { GrMail } from "react-icons/gr";
 import { IoMenu } from "react-icons/io5";
 import Educacion from './Educacion';
 import Skills from './Skills';
+import Proyectos from './Proyectos';
 
 
 
@@ -32,7 +33,7 @@ function App() {
 
       <div className='acercademi'>
 
-        <img className='bannerfoto' src='https://i.ibb.co/yfxKRcw/banerrr.png' />
+        <img className='bannerfoto' src='https://i.postimg.cc/Mprm1dMm/banerrr.png' />
         <div className='fotoytext'>
 
           <div className='textt'>
@@ -54,6 +55,8 @@ function App() {
 
 
       <Skills />
+
+      <Proyectos/>
 
 
 

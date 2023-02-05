@@ -1,0 +1,17 @@
+.proyectosdiv{
+    background-color: var(--color-fifth);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.proyectoscampo{
+    background-color: var(--color-fifth);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
