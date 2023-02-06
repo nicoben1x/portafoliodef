@@ -4,7 +4,7 @@ import ContactoCard from "./ContactoCard";
 function Contacto(){
     return (
         <div className="contactodiv">
-            <h1>Contacto</h1>
+            <h1 className="contactoh1">Contacto</h1>
             <div className="contactocampo">
             <ContactoCard/>
             <ContactoCard/>

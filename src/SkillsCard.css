@@ -1,8 +1,8 @@
 .skillscard{
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 278px;
+    width: 220px;
+    height: 220px;
     background-color: var(--color-fifth);
     justify-content: center;
     align-items: center;
@@ -15,6 +15,6 @@
    
 }
 .imgskill{
-    height: 170px;
+    height: 142px;
     object-fit: contain;
 }

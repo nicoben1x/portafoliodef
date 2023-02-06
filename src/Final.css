@@ -3,4 +3,18 @@
     height :200px;
     background-color: var(--color-thirth);
     border-top: solid var(--color-fourth) 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+.logoargprog{
+    width:200px;
+    object-fit: cover;
+}
+.logofreecode{
+    width:200px;
+    object-fit: cover;
+}
+

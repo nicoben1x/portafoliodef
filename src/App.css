@@ -23,17 +23,19 @@
 .acercaperfil{
   background-color: var(--color-first);
   max-width: 600px;
-  font-size: 19px;
+  font-size: 21px;
+  margin-top: 12px;
 }
 .rolperfil{
   background-color: var(--color-first);
-  font-size: 21px;
+  font-size: 28px;
   margin: 0px;
 
 }
 .nombreperfil{
   background-color: var(--color-first);
   margin: 6px 0px;
+  font-size: 54px;
 
 }
 .App{

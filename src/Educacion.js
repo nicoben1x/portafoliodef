@@ -5,7 +5,7 @@ import EduCard from './EduCard';
 function Educacion() {
     return (
         <div className='edudiv'>
-            <h1>Educacion</h1>
+            <h1 className='educacionh1'>Educacion</h1>
             <div className='educampo'>
                 <EduCard
 

@@ -3,7 +3,7 @@ import "./ProyectoCard.css"
 function ProyectoCard(){
     return (
         <div className="proyectocard">
-            <img className="imgproyecto" src="https://img.freepik.com/vector-gratis/calculadora-rosa-sobre-fondo-blanco_1308-74126.jpg"/>
+            <img className="imgproyecto" src="https://i.ibb.co/k3gYHVS/Sin-t-tulo.png"/>
             <h1>Calculadora BTC</h1>
             <p className="proyectodesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus 
                 tellus quis metus malesuada accumsan. Nullam a massa lorem. Phasellus egestas 

@@ -4,11 +4,11 @@ import SkillsCard from "./SkillsCard";
 function Skills() {
     return (
         <div className="skillsdiv">
-            <h1>Skills</h1>
+            <h1 className="skillsh1">Skills</h1>
 
             <div>
 
-                <h2>Hard Skills</h2>
+                <h2 className="skillsub">Hard Skills</h2>
 
                 <div className="skillscampo">
 
@@ -47,7 +47,7 @@ function Skills() {
             </div>
 
             <div>
-                <h2>Soft Skills</h2>
+                <h2 className="skillsub">Soft Skills</h2>
                 <div className="skillscampo">
                     <SkillsCard
                         imgs="https://publicdomainvectors.org/tn_img/provider-idea.webp"
@@ -73,7 +73,7 @@ function Skills() {
             </div>
 
             <div>
-                <h2>Idiomas</h2>
+                <h2 className="skillsub">Idiomas</h2>
 
                 <div className="skillscampo">
                     <SkillsCard
