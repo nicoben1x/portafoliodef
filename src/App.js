@@ -42,7 +42,7 @@ function App() {
 
       <div id='homeid' className='acercademi'>
 
-        <img className='bannerfoto' src='https://i.postimg.cc/Mprm1dMm/banerrr.png' />
+        <img className='bannerfoto' src='https://i.ibb.co/yWwp6D5/ban222222errr.png' />
         <div className='fotoytext'>
 
           <div className='textt'>
@@ -50,7 +50,7 @@ function App() {
 
             <img className='perfilfoto' src='https://i.postimg.cc/PqJj9w2J/20221211-213641.jpg' />
             <h1 className='nombreperfil'>Nicolás Benavidez</h1>
-            <h2 className='rolperfil'>Programador Web Fullstack Jr.</h2>
+            <h2 className='rolperfil'>Programador Frontend</h2>
           </div>
           <p className='acercaperfil'> Soy una persona proactiva, organizada
             y responsable, con buenas relaciones interpersonales.
