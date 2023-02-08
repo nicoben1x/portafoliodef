@@ -1,7 +1,7 @@
 
 
 .educard{
-    background-color: var(--color-fourth);
+    background-color: var(--color-first);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,9 +10,15 @@
     padding: 7px;
     margin: 14px;
     max-width: 499px;
-    border: solid var(--color-thirth) 3px;
+    box-shadow: 6px 5px 5px var(--color-sixth);
     border-radius: 7%;
+    transition: 0.2s;
+    cursor: pointer;
 
+}
+.educard:hover{
+    background-color: var(--color-thirth);
+    transform: rotate(5deg);
 }
 
 .edulogo{
@@ -22,7 +28,7 @@
     margin-top: 10px;
 }
 .edutext{
-    background-color: var(--color-fourth);
+    background-color: transparent;
     text-align:center;
    
    

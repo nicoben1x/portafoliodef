@@ -23,11 +23,11 @@
 }
 .skillscard:hover{
     transform: rotate(10deg);
-    background-color: var(--color-first);
+    background-color: var(--color-thirth);
 
 }
 .skillscard:active{
     transform: rotate(10deg);
-    background-color: var(--color-first);
+    background-color: var(--color-thirth);
 
 }

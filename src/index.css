@@ -1,15 +1,15 @@
 :root{
-  --color-first: #c8f2fd ;
-  --color-second: #d5f6ff;
-  --color-thirth: #406973 ;
-  --color-fourth: #A4BABF ;
-  --color-fifth: #D1ECF3;
-  --color-sixth:#d9f8ff;
+  --color-first: #ebe2de ;
+  --color-second: #F0EEED;
+  --color-thirth: #3799b9 ;
+  --color-fifth: #edf0f0;
+  --color-sixth:#332C39;
  }
 
 *{
   margin: 0px;
   padding: 0px;
+  color:var(--color-sixth);
 }
 body {
   margin: 0;

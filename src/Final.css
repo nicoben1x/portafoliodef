@@ -10,12 +10,13 @@
     width: 100%;
     height :200px;
     background-color: var(--color-thirth);
-    border-top: solid var(--color-fourth) 10px;
+    border-top: solid var(--color-sixth) 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 .logoargprog{
     width:200px;

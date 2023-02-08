@@ -14,6 +14,7 @@ import GmailLogo from "./assets/Gmail_black.png"
 import FacebookLogo from "./assets/Facebook_black.png"
 import LinkedinLogo from "./assets/LinkedIN_black.png"
 import GithubLogo from "./assets/Github_black.png"
+import BannerFoto from "./assets/ban2222522errr.png";
 
 
 
@@ -61,7 +62,7 @@ function App() {
 
       <div id='homeid' className='acercademi'>
 
-        <img className='bannerfoto' src='https://i.ibb.co/yWwp6D5/ban222222errr.png' />
+        <img className='bannerfoto' src={BannerFoto}/>
         <div className='fotoytext'>
 
           <div className='textt'>

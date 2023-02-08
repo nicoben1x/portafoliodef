@@ -1,5 +1,5 @@
 .contactocard{
-    background-color: var(--color-sixth);
+    background-color: var(--color-fifth);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +19,7 @@
 }
 .contactocard:hover{
     background-color: var(--color-thirth);
+    transform: rotate(5deg);
 
 }
 .imgcontacto:hover{
