@@ -19,6 +19,17 @@ function App() {
   return (
     <div className="App">
       <div className='navbar'>
+
+        <ul className='listadnav'>
+          <li className="listadnav-item" ><a href='#homeid'>Home</a></li>
+          <li className="listadnav-item" ><a href='#educacionid'>Educacion</a></li>
+          <li className="listadnav-item"><a href='#skillsid'>Skills</a></li>
+          <li className="listadnav-item"><a href='#proyectosid'>Proyectos</a></li>
+          <li className="listadnav-item"><a href='#contactoid'>Contacto</a></li>
+        </ul>
+
+
+
         <IoMenu onClick={menuDes} className='menuboton' />
         <div className='redes'>
           <GrMail className='mailboton' />
@@ -60,20 +71,20 @@ function App() {
 
       </div>
 
-      <div id="educacionid"></div>
-      <Educacion  />
+      <div className='sectiondiv' id="educacionid"></div>
+      <Educacion />
 
-      <div id="skillsid"></div>
-      <Skills  />
-    
-      <div id="proyectosid"></div>
+      <div className='sectiondiv' id="skillsid"></div>
+      <Skills />
+
+      <div className='sectiondiv' id="proyectosid"></div>
       <Proyectos />
 
 
-      <div id="contactoid"></div>
+      <div className='sectiondiv' id="contactoid"></div>
       <Contacto />
 
-      <Final/>
+      <Final />
 
 
 

@@ -38,8 +38,11 @@
   font-size: 54px;
 
 }
+.sectiondiv{
+  margin: 15px 0px;;
+}
 .App{
-  background-color: yellow;
+  background-color: var(--color-fifth);
   display: flex;
   flex-direction: column;
 }
@@ -98,6 +101,7 @@
   width: 50px;
   height: 50px;
   margin: 0px 4px;
+  cursor: pointer;
 }
 .githubboton{
   background-color: transparent;
@@ -105,6 +109,7 @@
   height: 60px;
   margin-bottom: -3px;
   margin-left: -7px;
+  cursor: pointer;
 
 }
 .linkedinboton{
@@ -112,11 +117,13 @@
   width: 50px;
   height: 50px;
   margin: 0px 4px;
+  cursor: pointer;
 }
 .mailboton{
   background-color: transparent;
   width: 50px;
   height: 50px;
+  cursor: pointer;
 }
 .redes{
   background-color: transparent;
@@ -138,6 +145,9 @@
   
   
 }
+.listadnav{
+  display: none;
+}
 
 .listanav{
   display: flex;
@@ -158,4 +168,50 @@
 .listanav li a{
   text-decoration: none;
   color: black;
+}
+
+@media (min-width: 570px) {
+  .menuboton{
+    display: none;
+    
+  }
+  .redes{
+    display: none;
+  }
+  .listadnav{
+    display: flex;
+    list-style: none;
+
+    
+  }
+  .listadnav-item{
+    padding: 5px;
+    margin: 5px;
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    transition: 0.4s;
+    
+    
+  }
+  .listadnav-item:hover{
+    font-size: 25px;
+    
+  }
+  .listadnav-item a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: 0.3s;
+
+  }
+  .listadnav-item a:hover{
+    color: var(--color-fourth)
+  }
+
+  .navbar{
+    justify-content: flex-end;
+  }
+  
 }
