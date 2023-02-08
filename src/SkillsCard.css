@@ -9,6 +9,9 @@
     padding: 8px;
     margin: 5px;
     border-radius: 71%;
+    transition: 0.3s;
+
+    
  
     
 
@@ -17,4 +20,14 @@
 .imgskill{
     height: 120px;
     object-fit: contain;
+}
+.skillscard:hover{
+    transform: rotate(10deg);
+    background-color: var(--color-first);
+
+}
+.skillscard:active{
+    transform: rotate(10deg);
+    background-color: var(--color-first);
+
 }
