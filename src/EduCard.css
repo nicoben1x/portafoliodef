@@ -10,8 +10,9 @@
     padding: 7px;
     margin: 14px;
     max-width: 499px;
-    border: solid #406973 3px;
+    border: solid var(--color-thirth) 3px;
     border-radius: 7%;
+
 }
 
 .edulogo{

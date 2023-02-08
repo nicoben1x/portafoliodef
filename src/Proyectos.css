@@ -17,4 +17,7 @@
 }
 .proyectosh1{
     font-size: 54px;
+    background-color: var(--color-first);
+    width: 100%;
+    text-align: center;
 }

@@ -4,7 +4,9 @@
   --color-thirth: #406973 ;
   --color-fourth: #A4BABF ;
   --color-fifth: #D1ECF3;
+  --color-sixth:#d9f8ff;
  }
+
 *{
   margin: 0px;
   padding: 0px;

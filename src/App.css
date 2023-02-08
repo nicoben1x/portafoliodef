@@ -127,6 +127,7 @@
 }
 .redes{
   background-color: transparent;
+  display: none;
 }
 .menuDes{
   width: 100%;

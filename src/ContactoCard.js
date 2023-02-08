@@ -1,10 +1,10 @@
 import "./ContactoCard.css"
 
-function ContactoCard(){
+function ContactoCard({imagen,texto}){
     return (
         <div className="contactocard">
-            <img className="imgcontacto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1200px-Facebook_icon.svg.png"/>
-            <h1>Facebook</h1>
+            <img className="imgcontacto" src={imagen}/>
+            <h1>{texto}</h1>
 
         </div>
     );

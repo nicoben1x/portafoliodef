@@ -10,6 +10,10 @@ import Skills from './Skills';
 import Proyectos from './Proyectos';
 import Contacto from './Contacto';
 import Final from './Final';
+import GmailLogo from "./assets/Gmail_black.png"
+import FacebookLogo from "./assets/Facebook_black.png"
+import LinkedinLogo from "./assets/LinkedIN_black.png"
+import GithubLogo from "./assets/Github_black.png"
 
 
 
@@ -32,6 +36,10 @@ function App() {
 
         <IoMenu onClick={menuDes} className='menuboton' />
         <div className='redes'>
+          <img src={GmailLogo}/>
+          <img src={GmailLogo}/>
+          <img src={GmailLogo}/>
+          <img src={GmailLogo}/>
           <GrMail className='mailboton' />
           <AiFillLinkedin className='linkedinboton' />
           <DiGithubBadge className='githubboton' />
